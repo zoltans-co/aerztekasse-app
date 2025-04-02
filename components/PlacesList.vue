@@ -184,7 +184,7 @@
 
     margin: 1rem;
 
-    width: 70%;
+    width: 70vw;
 
     display: flex;
     align-items: flex-start;
@@ -207,7 +207,7 @@
     color: #666;
     text-align: left;
 
-    background-color: #DDDDDD;
+    background-color: #EFEFEF;
 
     width: 70%;
     padding: 3rem 3rem 3rem 5rem;
