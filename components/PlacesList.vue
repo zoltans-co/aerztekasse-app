@@ -48,7 +48,7 @@
 
             <!-- Opening hours -->
             <li v-for="(interval, idx) in hours" :key="idx">
-              {{ interval.start }} - {{ interval.end }} ({{ interval.type }})
+              {{ interval.start }} - {{ interval.end }}
             </li>
           </ul>
         </div>

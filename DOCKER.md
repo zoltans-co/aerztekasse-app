@@ -16,5 +16,5 @@ docker-compose down
 
 #### Build and push in one command
 ````bash
-docker buildx build --push --platform linux/amd64 -t zoltansco/aerztekasse:aerztekasse-app-2025.04.02a -f Dockerfile .
+docker buildx build --push --platform linux/amd64 -t zoltansco/aerztekasse:aerztekasse-app-2025.04.02c -f Dockerfile .
 ````
