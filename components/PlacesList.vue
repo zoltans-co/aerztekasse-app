@@ -56,7 +56,6 @@
     </div>
   </div>
 
-
   <!-- Loading state -->
   <div v-else>
     <p>Loading data in progress...</p>
@@ -101,12 +100,6 @@
     color: var(--sz-green-dark) !important;
   }
 
-  .nav-links {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-
   nav a {
     text-decoration: none;
     color: #929292;
@@ -144,25 +137,6 @@
     line-height: 1.5em;
   }
 
-  .bigger {
-    font-size: 5rem;
-  }
-
-  .cta-button{
-    text-decoration: none;
-    color: white !important;
-    background: linear-gradient(to right,var(--sz-green-dark), var(--sz-green-light));
-    display: inline-block;
-    padding: 1em 3em;
-    font-weight: 600;
-    border-radius: 1000px;
-    transition: 150ms ease;
-  }
-
-  .cta-button:hover{
-    scale: 1.1;
-  }
-
   .places-list {
     margin-top: 10em;
     min-height: 800px;
@@ -171,24 +145,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    /*gap: 1em;*/
   }
 
   .places-item {
     display: flex;
-    align-items: center; /* Igazítás függőlegesen középre */
-    gap: 10px; /* Távolság az elemek között */
+    align-items: flex-start;
+    gap: 10px;
 
     background-color: #EEEEEE;
     border-radius: 10px;
-
     margin: 1rem;
-
-    width: 70vw;
-
-    display: flex;
-    align-items: flex-start;
-
+    width: 45vw;
   }
 
   .place-header {
@@ -198,7 +165,7 @@
 
     vertical-align: top;
 
-    width: 30%;
+    width: 40%;
     padding: 3rem 3rem 3rem 5rem;
   }
 
@@ -209,15 +176,15 @@
 
     background-color: #EFEFEF;
 
-    width: 70%;
-    padding: 3rem 3rem 3rem 5rem;
+    width: 60%;
+    padding: 3rem 3rem 3rem 4rem;
 
   }
 
   ul {
-    list-style-type: none; /* Eltávolítja a pöttyöket */
-    margin: 0; /* Opcionális: alapértelmezett margó eltávolítása */
-    padding: 0; /* Opcionális: alapértelmezett behúzás eltávolítása */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
 
   .day-header {
