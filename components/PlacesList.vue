@@ -35,7 +35,7 @@
     <div v-for="(place, index) in placesData" :key="index" class="place places-item">
       <div class="place-header">
         <h2>{{ place.label }}</h2>
-        <p><strong>Address:</strong> {{ place.location }}</p>
+        <p>{{ place.location }}</p>
       </div>
 
       <div class="opening-hours">
@@ -161,6 +161,7 @@
   .place-header {
     font-size: 1.2rem;
     font-weight: bold;
+    color: #666;
     text-align: left;
 
     vertical-align: top;
