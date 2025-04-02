@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  aerztekasse-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: aerztekasse-app
+    restart: unless-stopped
+    ports:
+      - "4000:3000"
+    environment:
+      NODE_ENV: production

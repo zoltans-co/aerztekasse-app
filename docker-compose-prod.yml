@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  aerztekasse-app:
+    image: zoltansco/aerztekasse:aerztekasse-app-2025.04.02
+    container_name: aerztekasse-app
+    restart: unless-stopped
+    ports:
+      - "4001:3000"
+    environment:
+      NODE_ENV: production
